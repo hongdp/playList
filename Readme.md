@@ -1,6 +1,8 @@
 # Play List Assignment
 
-This project is a simple play list module. In this module, users will be able to play 20 different videos by 4 artists.
+This project is a simple play list module. In this module, users will be able to play 20 different videos by 4 artists. 
+
+Click [here](http://54.175.253.173:3000/playlist) to try
 
 ## Framework Used
 
