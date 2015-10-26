@@ -28,3 +28,4 @@ The client-side of the play list is built with AngularJS. The server-side is bui
 1. The first play list is not rendered in server side, but rendered by Angular in client side. I choose to do this be cause this is more natual for Angular.
 2. The artists list is hard coded in Angular controller and it's not editable. This can be provided by another RESTful API from server with SQL in the future version.
 3. Only 5 videos of each artist is provided.
+4. I have to say the UI is a ugly. 
