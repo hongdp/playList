@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
 
 router.get('/getlist', function (req, res, next) {
     var artist = req.query.artist;
-    youtubeSearch.search.list({auth: API_key, part:"id,snippet", q: artist},function(err, youtubeRes){
+    youtubeSearch.search.list({auth: API_key, part:"id,snippet", q: artist, type: "video"},function(err, youtubeRes){
         res.json(err||youtubeRes);
     })
 });

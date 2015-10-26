@@ -15,7 +15,7 @@
         <div class="col-md-6">
             <!--Sidebar content-->
             Artist:
-            <select ng-model="artistName" ng-change="artistChange()">
+            <select class="form-control" ng-model="artistName" ng-change="artistChange()">
                 <option ng-repeat="artist in artistsList" value="{{artist}}">{{artist}}</option>
             </select>
 
