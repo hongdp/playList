@@ -11,7 +11,7 @@ The client-side of the play list is built with AngularJS. The server-side is bui
 1. Clone this repo with `git clone https://github.com/hongdp/playList.git`.
 2. Get into root directory of this repo. 
 3. Run `npm install` to install dependencies.
-3. Run `node app.js` to start server.
+3. Run `node bin/www` to start server.
 4. Enter localhost:3000/playlist to your browser.
 5. Enjoy!
  
